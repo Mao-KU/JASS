@@ -1,6 +1,15 @@
 # JASS: Japanese-specific Sequence to Sequence Pre-training for Neural Machine Translation
 
-Coming soon.
+## Pre-trained JASS models
+We pre-trained 3 kinds of JASS models: ja+en, ja+ru, ja+en+ru. For Japanese seq2seq pretraining, we use our proposed JASS methods, while MASS is used for English and Russian. Below are the pretrained models:
+|Language|vocabulary|bpe codes|
+---|---|---
+|JASS(jaen)|||
+|JASS(ja+ru)|||
+|JASS(ja+en+ru)|||
+
+## Usage
+Please run the bpe precrocessing for the dataset to be finetuned first. After setting up the downloaded vocabulary for src and tgt sentences during the preprocessing, use ```train-from```in OpenNMT to implement the finetuning.  
 
 ## Reference
 [1] Zhuoyuan Mao, Fabien Cromieres, Raj Dabre, Haiyue Song, Sadao Kurohashi, [*JASS: Japanese-specific Sequence to Sequence Pre-training for Neural Machine Translation*](https://www.aclweb.org/anthology/2020.lrec-1.454/)
