@@ -2,7 +2,7 @@
 
 ## Pre-trained JASS models
 We pre-trained 3 kinds of JASS models: ja+en, ja+ru, ja+en+ru. For Japanese seq2seq pretraining, we use our proposed JASS methods, while MASS is used for English and Russian. Below are the pretrained models:
-|Language|vocabulary|bpe codes|
+|Model|vocabulary|BPE codes|
 ---|---|---
 |JASS(jaen)|||
 |JASS(ja+ru)|||
