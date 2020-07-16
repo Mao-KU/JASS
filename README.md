@@ -9,7 +9,7 @@ We release 3 kinds of JASS models: ja+en, ja+ru, ja+en+ru. For Japanese seq2seq 
 |JASS(jaenru)|||
 
 ## Usage
-Please run the bpe precrocessing for the dataset to be finetuned first. After setting up the downloaded vocabulary for src and tgt sentences during the preprocessing, use ```train_from```in OpenNMT to implement the finetuning.  
+Please run the bpe precrocessing for the dataset to be finetuned first. After setting up the downloaded vocabulary for src and tgt sentences during the preprocessing, use ```train_from``` in OpenNMT to implement the finetuning.  
 
 ## Reference
 [1] Zhuoyuan Mao, Fabien Cromieres, Raj Dabre, Haiyue Song, Sadao Kurohashi, [*JASS: Japanese-specific Sequence to Sequence Pre-training for Neural Machine Translation*](https://www.aclweb.org/anthology/2020.lrec-1.454/)
