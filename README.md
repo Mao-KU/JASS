@@ -11,9 +11,9 @@ pip install subword-nmt
 We release 3 kinds of JASS models: ja+en, ja+ru, ja+en+ru. For Japanese seq2seq pretraining, we use our proposed JASS methods while MASS is utilized for English and Russian. Below are the pretrained models:
 |Model|vocabulary|BPE codes|
 ---|---|---
-|JASS(jaen)|||
-|JASS(jaru)|||
-|JASS(jaenru)|||
+|[JASS(jaen)]|[ja-en]|[ja-en.bpe.codes]|
+|[JASS(jaru)]|[ja-ru]|[ja-ru.bpe.codes]|
+|[JASS(jaenru)]|[ja-en-ru]|[ja-en-ru.bpe.codes]|
 
 ## Usage
 Please run the bpe precrocessing for the dataset to be finetuned first. After setting up the downloaded vocabulary for src and tgt sentences during the preprocessing, use ```train_from``` in OpenNMT to implement the finetuning.  
