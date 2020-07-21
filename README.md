@@ -1,5 +1,12 @@
 # JASS: Japanese-specific Sequence to Sequence Pre-training for Neural Machine Translation
 
+## Requirements
+Install OpenNMT-py and subword-nmt.
+```bash
+pip install OpenNMT-py
+pip install subword-nmt
+```
+
 ## Pre-trained JASS models
 We release 3 kinds of JASS models: ja+en, ja+ru, ja+en+ru. For Japanese seq2seq pretraining, we use our proposed JASS methods while MASS is utilized for English and Russian. Below are the pretrained models:
 |Model|vocabulary|BPE codes|
