@@ -8,7 +8,7 @@ pip install subword-nmt
 ```
 
 ## Pre-trained JASS models
-We release 2 kinds of JASS models: ja+en, ja+ru. For Japanese seq2seq pretraining, we use our proposed JASS methods while MASS is utilized for English and Russian. Below are the pretrained models:
+We release JASS models on 2 language pairs: ja+en, ja+ru. For Japanese seq2seq pretraining, we use our proposed JASS methods while MASS is utilized for English and Russian. We will release pretrained model on Japanese and Chinese in future.
 
 |Model|Vocabulary|BPE codes|
 |:---:|:---:|:---:|
