@@ -18,6 +18,8 @@ We release JASS models on 2 language pairs: ja+en, ja+ru. For Japanese seq2seq p
 ## Usage
 Run the bpe precrocessing for the dataset to be finetuned. After setting up the downloaded vocabulary for src and tgt sentences during the preprocessing phase by ```preprocess.py``` of OpenNMT, use ```train_from``` argument of ```train.py``` in OpenNMT to implement the finetuning for the pretrained model.  
 
+Finetuning examples to be updated.
+
 ## Reference
 [1] Zhuoyuan Mao, Fabien Cromieres, Raj Dabre, Haiyue Song, Sadao Kurohashi, [*JASS: Japanese-specific Sequence to Sequence Pre-training for Neural Machine Translation*](https://www.aclweb.org/anthology/2020.lrec-1.454/)
 
